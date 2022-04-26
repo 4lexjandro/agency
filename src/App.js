@@ -1,4 +1,9 @@
 
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Minifooter from './components/signature/Minifooter'
+import Content from './pages/Content'
+import "./styles.css"
 
 
 
@@ -8,12 +13,41 @@ function App() {
 
 
 
+
+
+
   return (
-    <div className="App">
-      <h1>my app</h1>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div >
+     
+
+     <div >
+      <Navbar />
+      
+      
+
+      
+     
+      <Footer />
+    <Minifooter />
+    </div>
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
 
     </div>
