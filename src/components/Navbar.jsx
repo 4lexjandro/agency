@@ -3,15 +3,10 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Content from '../pages/Content'
 
 
-export default class Navbar extends Component {
+const Navbar = () => {
 
 
-
-scrollToTop = () => {
-        scroll.scrollToTop();
-      };
-    
-      render() {
+{
 
 
      return (
@@ -27,15 +22,18 @@ scrollToTop = () => {
 
   <div class="flex-none">
     <ul class="menu menu-horizontal p-0">
-      <li><button class="btn btn-accent">Button</button></li>
+      <li><button class="btn btn-accent">About</button></li>
       <li tabindex="0">
-      <button class="btn btn-accent">Button</button>
+      <button class="btn btn-accent">Services</button>
         <ul class="p-2 bg-base-100">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
+          <li><a>SEO Analysis </a></li>
+          <li><a>Content Marketing Services</a></li>
+          <li><a>Social Media Analysis </a></li>
+          <li><a>Social Media Optimization</a></li>
         </ul>
+        
       </li>
-      <li><button class="btn btn-accent">Button</button></li>
+      <li><button class="btn btn-accent">Contact</button></li>
     </ul>
   </div>
 
@@ -63,6 +61,8 @@ scrollToTop = () => {
   )
 }
 }
+
+export default Navbar;
 
 
 {/* 
