@@ -18,7 +18,7 @@ export default function SocialFollow() {
       
 
 
-    <div className="grid grid-flow-col gap-10 bg-primary ">
+    <div className="grid grid-flow-col gap-10 bg-neutral-content ">
       
  <a href="https://www.youtube.com/channel/UCoEzp7t1xdHp7ItsaD30N8w"
         className="youtube social">

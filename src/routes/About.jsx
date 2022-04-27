@@ -2,7 +2,77 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p> <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      <p>About page here</p>
+      <p>About page here</p>
+      <p>About page here</p>
+
+      </div>
   )
 }
 
