@@ -4,6 +4,7 @@ import Content from '../pages/Content'
 import About from '../routes/About'
 import Contact from '../routes/Contact'
 import Services from '../routes/Services'
+import Home from '../routes/Home'
   
 
 
@@ -20,22 +21,28 @@ const Navbar = () => {
      </div>
   <div class="flex-none">
   <ul class="menu menu-horizontal p-0 gap-6">
+       <li>
+        <button class="btn btn-secondary">
+          <a href="#home" >
+            Home
+          </a>
+        </button>
+      </li>
+
+
       <li>
         <button class="btn btn-secondary">
-        <a href="#one" >
+        <a href="#about" >
             About
           </a>
         </button>
-
-
-
       </li>
+      
       <li tabindex="0">
        <button class="btn btn-secondary">
-      <a href="#two" >
+      <a href="#services" >
             Services
       </a>
-      
        </button>
     <ul class="p-2 bg-base-100">
           <li><a>SEO Analysis </a></li>
@@ -47,7 +54,7 @@ const Navbar = () => {
       </li>
       <li>
         <button class="btn btn-secondary">
-      <a href="#three" >
+      <a href="#contact" >
             Contact
       </a>
         </button>
@@ -57,13 +64,18 @@ const Navbar = () => {
         </div>
       </header>
 
-          <section id="one" >
+
+         <section id="home" >
+           <Home />
+         </section>
+          <section id="about" >
           <About />
          </section>
-         <section id="two" >
+         
+         <section id="services" >
           <Services />
          </section>
-         <section id="three" >
+         <section id="contact" >
           <Contact />
          </section>
          
@@ -76,28 +88,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-{/* 
-<div class="navbar bg-secondary">
-pow
-  <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-  </div>
-
-
-  <div class="flex-none">
-    <ul class="menu menu-horizontal p-0">
-      <li><button class="btn btn-secondary">Button</button></li>
-      <li tabindex="0">
-      <button class="btn btn-secondary">Button</button>
-        <ul class="p-2 bg-base-100">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-        </ul>
-      </li>
-      <li><button class="btn btn-secondary">Button</button></li>
-    </ul>
-  </div>
-</div>
-<br/>
-*/}

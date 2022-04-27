@@ -1,8 +1,9 @@
 import React from 'react'
+import "../styles.css"
 
 function Contact() {
   return (
-    <div>
+    <div classname="contactDiv">
       <p>Contact Page here</p>
 
       <p>Contact Page here</p>
@@ -132,7 +133,7 @@ function Contact() {
       <p>Contact Page here</p>
       <p>Contact Page here</p>
       <p>Contact Page here</p>
-      
+
     </div>
   )
 }
