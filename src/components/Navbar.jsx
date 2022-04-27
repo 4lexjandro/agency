@@ -17,7 +17,7 @@ const Navbar = () => {
     <header class="sticky top-0 z-30 w-full px-2 py-4 bg-rose-900 shadow-xl shadow-blue-600/20 sm:px-4 ">
     <div class="flex items-center justify-between mx-auto max-w-7xl">
     <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="#home">daisyUI</a>
+    <a class="btn-small  btn-outline btn-info normal-case text-xl" href="#home">daisyUI</a>
      </div>
   <div class="flex-none">
   <ul class="menu menu-horizontal p-0 gap-6">

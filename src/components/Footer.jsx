@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faYoutube,
+    faLinkedin,
     faFacebook,
     faTwitter,
     faInstagram
@@ -34,8 +34,8 @@ function Footer() {
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a href="https://www.youtube.com"
-        className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+        className="linkedinsocial">
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a href="https://facebook.com"
         className="facebook social">
