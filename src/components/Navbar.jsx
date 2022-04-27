@@ -14,15 +14,15 @@ const Navbar = () => {
 
 
     <div className="flex-1 px-2 mx-2 ">
-    <header class="sticky top-0 z-30 w-full px-2 py-4 bg-info shadow-xl shadow-blue-600/20 sm:px-4 ">
+    <header class="sticky top-0 z-30 w-full px-2 py-4 bg-rose-900 shadow-xl shadow-blue-600/20 sm:px-4 ">
     <div class="flex items-center justify-between mx-auto max-w-7xl">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a class="btn btn-ghost normal-case text-xl" href="#home">daisyUI</a>
      </div>
   <div class="flex-none">
   <ul class="menu menu-horizontal p-0 gap-6">
        <li>
-        <button class="btn btn-secondary">
+        <button class="btn-xs  btn-outline btn-info">
           <a href="#home" >
             Home
           </a>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
       <li>
-        <button class="btn btn-secondary">
+        <button class="btn-xs  btn-outline btn-info">
         <a href="#about" >
             About
           </a>
@@ -39,7 +39,7 @@ const Navbar = () => {
       </li>
       
       <li tabindex="0">
-       <button class="btn btn-secondary">
+       <button class="btn-xs  btn-outline btn-info">
       <a href="#services" >
             Services
       </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
         
       </li>
       <li>
-        <button class="btn btn-secondary">
+        <button class="btn-xs  btn-outline btn-info">
       <a href="#contact" >
             Contact
       </a>
