@@ -10,9 +10,9 @@ import {
 import styled from "styled-components";
 
 const ContactSection = styled.section`
-  width: 100vw;
+  width: 100%;
   padding: calc(2.5rem + 2.5vw) 0;
-  background-color: #0a0b10;
+  background-color: DimGrey;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -66,10 +66,10 @@ const Form = styled.form`
   input {
     padding: 1rem calc(0.5rem + 1vw);
     margin-bottom: 1rem;
-    background-color: var(--nav2);
+    background-color: black;
     border: none;
     border-radius: 4px;
-    color: #eff7f8;
+    color: #
     &:active,
     &:focus {
       border: none;
@@ -77,7 +77,7 @@ const Form = styled.form`
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #eff7f8;
+      color: #
       opacity: 0.6;
     }
     &[name="name"] {
@@ -87,7 +87,7 @@ const Form = styled.form`
   textarea {
     padding: 1rem calc(0.5rem + 1vw);
     margin-bottom: 1rem;
-    background-color: var(--nav2);
+    background-color: black;
     border: none;
     border-radius: 4px;
     color: #eff7f8;
@@ -103,10 +103,10 @@ const Form = styled.form`
   }
   button {
     padding: 0.8rem 2rem;
-    background-color: var(--white);
+    background-color: black;
     border-radius: 20px;
     font-size: 1.2rem;
-    color: #0a0b10;
+    color: #877979;
     cursor: pointer;
     transition: transform 0.3s;
     &:hover {
