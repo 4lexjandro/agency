@@ -16,6 +16,11 @@ const Home = () => {
     <HomeSection id="home">
         <h1>Welcome!</h1>
         <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p>
+        <h1>Welcome!</h1>
+        <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p><h1>Welcome!</h1>
+        <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p><h1>Welcome!</h1>
+        <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p><h1>Welcome!</h1>
+        <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p>
     </HomeSection>
   )
 }
