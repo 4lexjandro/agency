@@ -12,7 +12,7 @@ import styled from "styled-components";
 const ContactSection = styled.section`
   width: 100%;
   padding: calc(2.5rem + 2.5vw) 0;
-  background-color: DimGrey;
+  background-color: white;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -42,6 +42,7 @@ const Title = styled.h1`
 const Icons = styled.div`
   display: flex;
   margin-bottom: 3rem;
+  color:red; 
   a {
     &:hover {
       img {
@@ -90,14 +91,14 @@ const Form = styled.form`
     background-color: black;
     border: none;
     border-radius: 4px;
-    color: #eff7f8;
+    color: black;
     margin-bottom: 2rem;
     &:focus,
     &:active {
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #eff7f8;
+      color: #
       opacity: 0.6;
     }
   }
@@ -106,7 +107,7 @@ const Form = styled.form`
     background-color: black;
     border-radius: 20px;
     font-size: 1.2rem;
-    color: #877979;
+    color: turquoise;
     cursor: pointer;
     transition: transform 0.3s;
     &:hover {
@@ -133,7 +134,6 @@ const Contact = () => {
   return (
     <ContactSection id="contact">
       <Title>Get in touch</Title>
-      {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
       <Icons>
         <a href="https://www.facebook.com/">
           {" "}

@@ -19,6 +19,8 @@ const About = () => {
 `;
   return (
     <div style={{ backgroundImage: `url(${Business})` }}>
+      <br/>
+      <br/>
       
     <AboutSection id="about">
         <h1>We Are Capital!</h1>
