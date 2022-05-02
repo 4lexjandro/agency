@@ -1,53 +1,22 @@
 import React from 'react'
 
 function Content() {
+
+
+
+
+
+  
   return (
     <div>
-        <p>places pages sections here</p>
 
 
-        <p>places pages sections here</p>
 
-        <p>places pages sections here</p>
+        <h1>My App</h1>
 
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
 
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
 
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
 
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
-        <p>places pages sections here</p>
     </div>
   )
 }
