@@ -16,6 +16,7 @@ const Home = () => {
   return (
     <HomeSection id="home">
       <br />
+      <div className="titleW">
       <h1 class="animate-bounce w-6 h-6 ...">
         Welcome To Capital!
       </h1>
@@ -24,10 +25,15 @@ const Home = () => {
       
       
         <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p>
+        </div>
         
       <Content />
       <br/>
+      <div className='underGlobe'>
       <p>We go around the world!</p>
+
+      </div>
+      
 
 
 

@@ -14,11 +14,6 @@ function Spring() {
   justify-content: center;
 `;
 
-   
-
-
-
-
   return (
 
    <div>
