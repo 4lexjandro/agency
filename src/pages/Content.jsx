@@ -1,14 +1,17 @@
-import { useSpring, animated } from 'react-spring'
+
 import styled, { keyframes } from "styled-components";
-import CM from "../assets/CM.jpeg"
+import fly from "../assets/fly.png"
+import Spring from "./Spring.jsx"
+
+
 
 
 
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
-    50% { transform: translateY(10px) translateX(10px)        }
-    100% { transform: translateY(-5px)         }
+    50% { transform: translateY(10px) translateX(40px)        }
+    100% { transform: translateY(-40px)         }
 `;
 
 
@@ -17,11 +20,11 @@ const move = keyframes`
 
 function Content() {
 
-  const Rocket = styled.div`
+  const Fly = styled.div`
   display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 40%;
+  justify-content: left;
+  align-content: left;
+  width: 60%;
   padding-bottom: 5rem;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {
@@ -29,7 +32,7 @@ function Content() {
     padding-bottom: 0;
   }
 `;
-  
+
 
   
 
@@ -40,11 +43,12 @@ function Content() {
 
   return (
     <div>
-     <h1>pow</h1>
-     <Rocket>
-            <img src={CM} alt="" width="400" height="400" />
-      </Rocket>
-       
+     <Fly>
+            <img src={fly} alt="" width="300" height="300" />
+      </Fly>
+      <Spring />
+     
+      
        
       
     

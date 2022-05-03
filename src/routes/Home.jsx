@@ -16,10 +16,18 @@ const Home = () => {
   return (
     <HomeSection id="home">
       <br />
-        <h1>Welcome!</h1>
+      <h1 class="animate-bounce w-6 h-6 ...">
+        Welcome To Capital!
+      </h1>
+<br/>
+<br/>
+      
+      
         <p>We assist entrepreneurs like you expand their business and push boundaries they never thought possible!</p>
         
-  <Content />
+      <Content />
+      <br/>
+      <p>We go around the world!</p>
 
 
 

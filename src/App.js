@@ -8,8 +8,12 @@ import "./styles.css"
 
 
 
+
 function App() {
 
+
+  
+  
 
 
 
@@ -23,6 +27,9 @@ function App() {
 
      <div >
       <Navbar />
+        
+         
+
       
       
       
