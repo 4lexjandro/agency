@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import About from '../routes/About'
 import Contact from '../routes/Contact'
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div class="flex items-center justify-between mx-auto max-w-7xl">
     <div class="flex-1">
     <a class=" normal-case text-xl" href="#home">
-    <img class = "-skew-y-12" src={Capital} width="70" height="70"/>
+    <img class = "-skew-y-12" src={Capital} width="70" height="70" alt=""/>
       </a>
      </div>
   <div class="flex-none">

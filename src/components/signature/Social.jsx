@@ -41,13 +41,13 @@ export default function SocialFollow() {
      
 
 
-      <a href="https://www.twitter.com/4lexmendez" className="twitter social">
+      <a href="https://www.twitter.com/__alexjandro__" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       
 
 
-      <a href="https://www.instagram.com/4lexmendez"
+      <a href="https://www.instagram.com/__alexjandro__"
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>

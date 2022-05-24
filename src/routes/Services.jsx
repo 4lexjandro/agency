@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styled from "styled-components";
-import Business from "../assets/Business.jpeg";
+
 import CM from "../assets/CM.jpeg";
 import Optimize from "../assets/Optimize.png";
 import SeoAnalysis from "../assets/SeoAnalysis.jpeg";
@@ -31,7 +31,7 @@ const Services = () => {
 
 
   <div class="max-w-sm rounded overflow-hidden shadow-lg  bg-info">
-  <img class="w-full" src={CM} />
+  <img alt="" class="w-full" src={CM} />
   <div class="px-6 py-4">
     <div class="font-bold text-black text-xl mb-2">Market Your Business Needs</div>
     <p class="text-black text-base">
@@ -48,7 +48,7 @@ const Services = () => {
 <br/>
 
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-info">
-  <img class="w-full" src={Optimize} />
+  <img alt="" class="w-full" src={Optimize} />
   <div class="px-6 py-4">
     <div class="font-bold text-black text-xl mb-2">Optimization</div>
     <p class="text-black text-base">
@@ -73,7 +73,7 @@ const Services = () => {
 <div class="card card-side card-compact bg-base-100 shadow-xl">
 <div class="card w-96 bg-info shadow-xl">
   <figure>
-    <img src={Social}  />
+    <img alt="" src={Social}  />
     </figure>
   <div class="card-body text-black">
     <h2 class="card-title ">
@@ -99,7 +99,7 @@ const Services = () => {
 <div class="card card-side card-compact bg-base-100 shadow-xl">
 <div class="card w-96 bg-info shadow-xl">
   <figure>
-    <img src={SeoAnalysis}  />
+    <img alt="" src={SeoAnalysis}  />
     </figure>
   <div class="card-body text-black">
     <h2 class="card-title ">
